@@ -126,7 +126,7 @@ h2.s-h em{font-style:italic;color:var(--moss2);}
 .progress-badge{background:#fff;border:1px solid var(--border);border-radius:50px;padding:.65rem 1.5rem;display:flex;align-items:center;gap:1rem;}
 .prog-text{font-size:.78rem;font-weight:600;color:var(--charcoal);}
 .prog-track{width:100px;height:5px;background:var(--pearl);border-radius:3px;overflow:hidden;border:1px solid var(--border);}
-.prog-fill{height:100%;width:3.33%;background:var(--moss);border-radius:3px;}
+.prog-fill{height:100%;width:6.66%;background:var(--moss);border-radius:3px;}
 .q-grid{display:grid;grid-template-columns:repeat(6,1fr);gap:.65rem;}
 .q-box{aspect-ratio:1;border-radius:12px;display:flex;align-items:center;justify-content:center;font-size:.82rem;font-weight:700;cursor:pointer;transition:transform .2s;position:relative;}
 .q-box:hover{transform:scale(1.1);}
@@ -232,7 +232,7 @@ footer{background:var(--ink);padding:2rem 4rem;display:flex;align-items:center;j
     </div>
     <div class="stat-row">
       <div class="mini-stat rv"><div class="mini-num">0</div><div class="mini-label">Prior patents on fusion</div></div>
-      <div class="mini-stat rv"><div class="mini-num">1/30</div><div class="mini-label">Questions answered</div></div>
+      <div class="mini-stat rv"><div class="mini-num">2/30</div><div class="mini-label">Questions answered</div></div>
     </div>
   </div>
 </section>
@@ -325,11 +325,11 @@ footer{background:var(--ink);padding:2rem 4rem;display:flex;align-items:center;j
         <h2 class="s-h rv">30 questions.<br><em>One per day.</em></h2>
         <p class="s-lead rv" style="margin-bottom:0">Each answered question is a building block of the patent filing. This page updates as the diary progresses — starting in Göttingen, continuing in Delhi, finishing in Madrid.</p>
       </div>
-      <div class="progress-badge rv"><div class="prog-text">1 of 30 answered</div><div class="prog-track"><div class="prog-fill"></div></div></div>
+      <div class="progress-badge rv"><div class="prog-text">2 of 30 answered</div><div class="prog-track"><div class="prog-fill"></div></div></div>
     </div>
     <div class="q-grid">
       <div class="q-box q-done" title="Q1: Novelty Score — DONE">1</div>
-      <div class="q-box q-todo">2</div><div class="q-box q-todo">3</div><div class="q-box q-todo">4</div><div class="q-box q-todo">5</div><div class="q-box q-todo">6</div>
+      <div class="q-box q-done" title="Q2: BOS Pipeline Transfer — DONE">2</div><div class="q-box q-todo">3</div><div class="q-box q-todo">4</div><div class="q-box q-todo">5</div><div class="q-box q-todo">6</div>
       <div class="q-box q-todo">7</div><div class="q-box q-todo">8</div><div class="q-box q-todo">9</div><div class="q-box q-todo">10</div><div class="q-box q-todo">11</div><div class="q-box q-todo">12</div>
       <div class="q-box q-todo">13</div><div class="q-box q-todo">14</div><div class="q-box q-todo">15</div><div class="q-box q-todo">16</div><div class="q-box q-todo">17</div><div class="q-box q-todo">18</div>
       <div class="q-box q-todo">19</div><div class="q-box q-todo">20</div><div class="q-box q-todo">21</div><div class="q-box q-todo">22</div><div class="q-box q-todo">23</div><div class="q-box q-todo">24</div>
@@ -337,11 +337,18 @@ footer{background:var(--ink);padding:2rem 4rem;display:flex;align-items:center;j
     </div>
     <div class="diary-answered rv">
       <div>
+        <div class="ans-label">✅ Q2 Complete — BOS Pipeline Transfer</div>
+        <div class="ans-text">Yes — the pipeline transfers directly. Both domains have a real signal field corrupted by false vectors at solid object boundaries. Stage 1 changes its training data, Stage 2 changes its physics loss function. The architecture stays the same.</div>
+        <div class="ans-sub">Answered March 2026 · Göttingen, Germany · Inspired by the helium gas flow image</div>
+      </div>
+      <a href="#pillars" class="btn-solid">See Q3 Coming Soon →</a>
+    </div>
+    <div class="diary-answered rv" style="margin-top:1rem;opacity:0.6;">
+      <div>
         <div class="ans-label">✅ Q1 Complete — Novelty Score</div>
         <div class="ans-text">Thermal + optical flow fusion for health monitoring has zero prior art in any patent database.</div>
         <div class="ans-sub">Score: 8.5 / 10 · Answered March 2026 · Göttingen, Germany</div>
       </div>
-      <a href="#pillars" class="btn-solid">See Q2 Coming Soon →</a>
     </div>
   </div>
 </section>
