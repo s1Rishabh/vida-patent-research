@@ -126,7 +126,7 @@ h2.s-h em{font-style:italic;color:var(--moss2);}
 .progress-badge{background:#fff;border:1px solid var(--border);border-radius:50px;padding:.65rem 1.5rem;display:flex;align-items:center;gap:1rem;}
 .prog-text{font-size:.78rem;font-weight:600;color:var(--charcoal);}
 .prog-track{width:100px;height:5px;background:var(--pearl);border-radius:3px;overflow:hidden;border:1px solid var(--border);}
-.prog-fill{height:100%;width:13.33%;background:var(--moss);border-radius:3px;}
+.prog-fill{height:100%;width:20%;background:var(--moss);border-radius:3px;}
 .q-grid{display:grid;grid-template-columns:repeat(6,1fr);gap:.65rem;}
 .q-box{aspect-ratio:1;border-radius:12px;display:flex;align-items:center;justify-content:center;font-size:.82rem;font-weight:700;cursor:pointer;transition:transform .2s;position:relative;}
 .q-box:hover{transform:scale(1.1);}
@@ -232,7 +232,7 @@ footer{background:var(--ink);padding:2rem 4rem;display:flex;align-items:center;j
     </div>
     <div class="stat-row">
       <div class="mini-stat rv"><div class="mini-num">0</div><div class="mini-label">Prior patents on fusion</div></div>
-      <div class="mini-stat rv"><div class="mini-num">4/30</div><div class="mini-label">Questions answered</div></div>
+      <div class="mini-stat rv"><div class="mini-num">6/30</div><div class="mini-label">Questions answered</div></div>
     </div>
   </div>
 </section>
@@ -325,11 +325,11 @@ footer{background:var(--ink);padding:2rem 4rem;display:flex;align-items:center;j
         <h2 class="s-h rv">30 questions.<br><em>One per day.</em></h2>
         <p class="s-lead rv" style="margin-bottom:0">Each answered question is a building block of the patent filing. This page updates as the diary progresses — starting in Göttingen, continuing in Delhi, finishing in Madrid.</p>
       </div>
-      <div class="progress-badge rv"><div class="prog-text">4 of 30 answered</div><div class="prog-track"><div class="prog-fill"></div></div></div>
+      <div class="progress-badge rv"><div class="prog-text">6 of 30 answered</div><div class="prog-track"><div class="prog-fill"></div></div></div>
     </div>
     <div class="q-grid">
       <div class="q-box q-done" title="Q1: Novelty Score — DONE">1</div>
-      <div class="q-box q-done" title="Q2: BOS Pipeline Transfer — DONE">2</div><div class="q-box q-done" title="Q3: The Novel Claim — DONE">3</div><div class="q-box q-done" title="Q4: Hardware Strategy & Product Family — DONE">4</div><div class="q-box q-todo">5</div><div class="q-box q-todo">6</div>
+      <div class="q-box q-done" title="Q2: BOS Pipeline Transfer — DONE">2</div><div class="q-box q-done" title="Q3: The Novel Claim — DONE">3</div><div class="q-box q-done" title="Q4: Hardware Strategy & Product Family — DONE">4</div><div class="q-box q-done" title="Q5: The Real Competitive Gap — DONE">5</div><div class="q-box q-done" title="Q6: Who Uses VIDA & How — DONE">6</div>
       <div class="q-box q-todo">7</div><div class="q-box q-todo">8</div><div class="q-box q-todo">9</div><div class="q-box q-todo">10</div><div class="q-box q-todo">11</div><div class="q-box q-todo">12</div>
       <div class="q-box q-todo">13</div><div class="q-box q-todo">14</div><div class="q-box q-todo">15</div><div class="q-box q-todo">16</div><div class="q-box q-todo">17</div><div class="q-box q-todo">18</div>
       <div class="q-box q-todo">19</div><div class="q-box q-todo">20</div><div class="q-box q-todo">21</div><div class="q-box q-todo">22</div><div class="q-box q-todo">23</div><div class="q-box q-todo">24</div>
@@ -337,30 +337,30 @@ footer{background:var(--ink);padding:2rem 4rem;display:flex;align-items:center;j
     </div>
     <div class="diary-answered rv">
       <div>
-        <div class="ans-label">✅ Q4 Complete — Hardware Strategy & Product Family</div>
-        <div class="ans-text">The patent is hardware-agnostic across three tiers. VIDA Lite needs zero extra hardware — just the phone camera for longitudinal inflammation tracking. VIDA Pro adds FLIR + IoT cover for deep clinical scoring. VIDA Field replaces wearables entirely with pitch-mounted miniaturised optical flow cameras — tracking all 22 players non-contact, live, telling the coach who to substitute at minute 63.</div>
-        <div class="ans-sub">Answered March 2026 · Göttingen → Delhi · LaVision BOS cube miniaturised from 4×5 inch lab hardware to pitch-side pole mount</div>
+        <div class="ans-label">✅ Q6 Complete — Who Uses VIDA & How</div>
+        <div class="ans-text">The end user is not a human — it's an AI. It scans Vinicius in 5–10 minutes, detects body spike levels, fatigue index and thermal patterns, and outputs one verdict: continue or substitute. The coach sees one number, not a dashboard. In health, the same AI watches passively and speaks only when something is wrong — like a friend who checks in exactly when you need it.</div>
+        <div class="ans-sub">Answered March 2026 · Delhi, India</div>
       </div>
       <a href="#products" class="btn-solid">See Product Family →</a>
     </div>
-    <div class="diary-answered rv" style="margin-top:1rem;opacity:0.65;">
+    <div class="diary-answered rv" style="margin-top:1rem;opacity:0.75;border-left:3px solid var(--coral);padding-left:1.5rem;">
       <div>
-        <div class="ans-label">✅ Q3 Complete — The Novel Claim</div>
-        <div class="ans-text">The novel claim is the closed-loop combination: passive IoT sensing → threshold-triggered thermal + optical flow scanning → behavioral intervention. No single component alone is the patent.</div>
+        <div class="ans-label">✅ Q5 Complete — The Real Competitive Gap</div>
+        <div class="ans-text">"The gap VIDA fills is not technical — it's human. Every existing tool measures load, GPS, heart rate. None of them measure whether a person is actually okay. Mentally ill patients receive medication but no one sits with them as a friend, listens calmly, tells them their family is their pillar. VIDA is the first system designed around that gap. The competitive gap is not a sensor. It's care."</div>
+        <div class="ans-sub">Answered March 2026 · Delhi, India · From personal experience in the clinic</div>
+      </div>
+    </div>
+    <div class="diary-answered rv" style="margin-top:1rem;opacity:0.55;">
+      <div>
+        <div class="ans-label">✅ Q4 Complete — Hardware Strategy & Product Family</div>
+        <div class="ans-text">Three tiers: VIDA Lite (phone only), VIDA Pro (FLIR + IoT cover), VIDA Field (pitch-mounted cameras, no wearables). One patent covers all three.</div>
         <div class="ans-sub">Answered March 2026 · Göttingen → Delhi</div>
       </div>
     </div>
-    <div class="diary-answered rv" style="margin-top:1rem;opacity:0.45;">
+    <div class="diary-answered rv" style="margin-top:1rem;opacity:0.35;">
       <div>
-        <div class="ans-label">✅ Q2 Complete — BOS Pipeline Transfer</div>
-        <div class="ans-text">The pipeline transfers directly. Stage 1 changes training data, Stage 2 changes physics loss function. Architecture stays the same.</div>
-        <div class="ans-sub">Answered March 2026 · Göttingen, Germany</div>
-      </div>
-    </div>
-    <div class="diary-answered rv" style="margin-top:1rem;opacity:0.25;">
-      <div>
-        <div class="ans-label">✅ Q1 Complete — Novelty Score</div>
-        <div class="ans-text">Thermal + optical flow fusion for health monitoring has zero prior art. Score: 8.5 / 10</div>
+        <div class="ans-label">✅ Q3 · Q2 · Q1 — Earlier entries</div>
+        <div class="ans-text">Q3: Closed-loop combination is the novel claim. Q2: BOS pipeline transfers directly. Q1: 8.5/10 novelty score, zero prior art on fusion method.</div>
         <div class="ans-sub">Answered March 2026 · Göttingen, Germany</div>
       </div>
     </div>
